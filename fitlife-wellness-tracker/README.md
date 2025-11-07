@@ -176,7 +176,11 @@ This project is open source and available for educational purposes.
 
 ## Support
 
-For questions or issues, please use the Contact form within the application or reach out to support@fitlife.com.
+For questions or issues, please use the Contact form within the application or reach out through:
+
+- **Email**: Healthcare@fitlife.com
+- **Phone**: 81 888 777
+- **Address**: Beirut, Lebanon
 
 ---
 
