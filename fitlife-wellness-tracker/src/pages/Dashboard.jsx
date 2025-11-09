@@ -121,10 +121,10 @@ const Dashboard = () => {
         {/* Tabs */}
         <div className="bg-white rounded-lg shadow-lg mb-8">
           <div className="border-b border-gray-200">
-            <nav className="flex">
+            <nav className="flex overflow-x-auto">
               <button
                 onClick={() => setActiveTab('overview')}
-                className={`px-6 py-4 font-semibold ${
+                className={`px-4 md:px-6 py-4 font-semibold whitespace-nowrap ${
                   activeTab === 'overview'
                     ? 'border-b-2 border-green-500 text-green-600'
                     : 'text-gray-600 hover:text-gray-800'
@@ -134,7 +134,7 @@ const Dashboard = () => {
               </button>
               <button
                 onClick={() => setActiveTab('activities')}
-                className={`px-6 py-4 font-semibold ${
+                className={`px-4 md:px-6 py-4 font-semibold whitespace-nowrap ${
                   activeTab === 'activities'
                     ? 'border-b-2 border-green-500 text-green-600'
                     : 'text-gray-600 hover:text-gray-800'
@@ -144,7 +144,7 @@ const Dashboard = () => {
               </button>
               <button
                 onClick={() => setActiveTab('meals')}
-                className={`px-6 py-4 font-semibold ${
+                className={`px-4 md:px-6 py-4 font-semibold whitespace-nowrap ${
                   activeTab === 'meals'
                     ? 'border-b-2 border-green-500 text-green-600'
                     : 'text-gray-600 hover:text-gray-800'
@@ -154,7 +154,7 @@ const Dashboard = () => {
               </button>
               <button
                 onClick={() => setActiveTab('exercises')}
-                className={`px-6 py-4 font-semibold ${
+                className={`px-4 md:px-6 py-4 font-semibold whitespace-nowrap ${
                   activeTab === 'exercises'
                     ? 'border-b-2 border-green-500 text-green-600'
                     : 'text-gray-600 hover:text-gray-800'
